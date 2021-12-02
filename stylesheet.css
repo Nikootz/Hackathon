@@ -4,10 +4,12 @@ button {
     outline: none;
     margin: 10px;
     border: none;
-    border-radius: 2px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
 }
 
 button.current {
     box-shadow: 0 0 0 2px white,
                 0 0 0 4px black;
+    border-radius: 50%;
 }
